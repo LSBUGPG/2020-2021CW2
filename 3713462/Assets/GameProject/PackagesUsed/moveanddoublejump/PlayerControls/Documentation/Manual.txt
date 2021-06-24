@@ -1,0 +1,15 @@
+Player Movement and Double Jump Package - Manual
+
+This package contains:
+- A movement and jumping Script called "playerControls" 
+- An example scene which demonstrates how the code will work with objects
+
+To use this package, place the script on the object that is your player in the inspector.
+Make sure your object has a rigidbody attached to it and any ground that the player will be standing on has the tag "Floor" attached to it.
+
+This script will allow the player to be able to move in all directions and double jump in the air.
+
+The float speed is how fast the player can move in all directions.
+The Grounded Boolean detects whether the player is colliding with the ground or not (stops infinite jumping).
+The constant interger called maxJumps sets the number of jumps that the player is allowed to do before touching the ground again.
+The interger currentJumps sets the players number of jumps to 0 by default, allows the player to jump twice and then resets when colliding with the floor again. 

@@ -1,0 +1,14 @@
+Randomized Player Teleportation Package - Manual
+
+This Package contains:
+- A script called "Teleport"
+- An example scene demonstrating how the teleporter can be used
+
+To use this package, place the Teleport Script onto your teleporter object, assign the destination object that you want your player to spawn at in the script inspector, and make sure your player or object has a collider and rigidbody.
+Ensure 'is Trigger' is ticked on your teleporter under it's box collider.
+
+This script will allow the player and objects to go through the teleporter and be spawned at their chosen destination.
+
+The Function VoidOnTriggerEnter is used to teleport your player to their set destination when colliding with the teleporter.
+
+

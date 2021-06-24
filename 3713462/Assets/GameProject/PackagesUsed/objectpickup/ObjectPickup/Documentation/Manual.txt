@@ -1,0 +1,13 @@
+Object Pickup and drop Package
+
+This package contains:
+- An object pickup script called "Pickup"
+- An example scene which demonstrates how objects can be picked up, held, and dropped using mouse press.
+
+To use this package, place the script on the object you want to pick up, assign the empty game object attached to your player called Destination to "theDest" in the script inspector.
+
+This script will allow objects to be picked up, held, and dropped using the left mouse button.
+
+Transform 'theDest' is the location you will assign for the object to transform to when picked up.
+OnMouseDown function turns off gravity and transforms the object to the assigned destination.
+OnMouseUp reverses this so that the cube can drop back to the ground.

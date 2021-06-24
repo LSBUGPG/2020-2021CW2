@@ -1,0 +1,22 @@
+3rd Person Camera - Manual
+
+This package contains:
+- A ThirdPersonCamera Script
+- An example scene which demonstrates how the 3rd person camera will work when attached to an object
+
+To use this package, place your camera where you want it and put your Camera Target and Player in the correct inspector slots inside the main camera's inspector under the ThirdPersonCamera Script.
+The camera target needs to be a child of the Player and the Main Camera needs to be a child of the Camera Target.
+Your player should have a tag of "Player".
+Your TargetCamera should have the tag of "Player".
+Your floor should have the tag of "Ground".
+Your wall should have the tag of "Wall".
+
+This Script will allow the player to use their mouse to move the camera in third person. It also stops the camera from clipping with surrounding objects.
+
+ThirdPersonCamera Script:
+CamRotationSpeed is how fast the camera rotates.
+Transform is for the Target and Player to be identified in the scene.
+mouseX and mouseY is for camera movement using the mouse.
+The function CameraControl is for camera movement.
+The function viewObstructed disables the mesh of any object colliding with the camera.
+The function LateUpdate calls both functions.
