@@ -1,0 +1,4 @@
+This script can be used to switch between 2 main players. The script works by enabling and disabling the input and camera on each of the game objects.
+For the example scene, the code only enables and disables the camera and movement script, however multiple components can be disabled enabled using the format:
+FirstPlayer/SecondPlayer.GetComponen<ComponentName>().enabled = false/true;
+Make sure that you assign the references for the first and second player and the 2 cameras. Also make sure that first player and second player boxes are ticked in the inspector accordingly.
