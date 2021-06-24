@@ -1,0 +1,14 @@
+Timer Package by Fiona Chung
+
+This package contains:
+- A script called Timer
+- An example scene showing how the timer is used with a UI text object 
+
+The script is a timer displaying minutes and seconds when used with a text object.
+
+To use the script, place it as component of the text object that you would like to display the time.
+Then in the inspector, under the Timer script inside of Time Text, drag in the text object displaying the timer. 
+
+The script allows the duration of the timer and if the timer is active, to be decided on inside of the inspector tab. 
+Time Remaining is the time, in seconds, at which the timer will begin to count down.
+Timer Is Running is a public bool, so that it can be referenced in other scripts to deactivate the timer when needed.

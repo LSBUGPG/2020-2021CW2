@@ -1,0 +1,15 @@
+Pickup Package by Fiona Chung
+
+The package contains:
+- PickupCollect script
+- An example scene with a player that moves with WASD or the arrow keys, to show that the pickups can be collected
+- Pickup prefab used in the example scene
+
+The pickups are collected by collision, so the object meant to collect the pickups will need a collider and will have to be named Player. This name can be changed within the script to any other name. 
+
+The script can also be adapted so that pickups can be collected depending on what the object it collides with is tagged as. 
+- Instead of other.name it changes to other.tag
+
+The PickupCollect script destroys the pickup object on collision and within the same if statement whatever effect the pickup has, can be added there. For example points could be increased by one. 
+
+The script is very simple, but this allows it to be used in a more versatile way. It can be added to any pickup object and then expanded to fit the needs of the project.
