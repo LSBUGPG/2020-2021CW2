@@ -25,9 +25,9 @@ public class RandomMovements : MonoBehaviour
     void Update()
     {
         RandomPoint = GameObject.FindGameObjectsWithTag("WayPoints");
-        if (navMeshAgent.hasPath == false)
+        if (navMeshAgent.hasPath == false && RandomPoint.Length > 0)
         {
-            CurrentRandomPoint = Random.Range(0, RandomPoint.Length + 1);
+            CurrentRandomPoint = Random.Range(0, RandomPoint.Length);
             navMeshAgent.SetDestination(RandomPoint[CurrentRandomPoint].transform.position);
 
         }
