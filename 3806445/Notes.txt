@@ -1,0 +1,7 @@
+P1 - Pet game. Feed and bathe pet to keep it alive
+
+P2 - Block building snake. Collect blocks to create a taller structure
+
+P3 - 3D eating game. Eat blocks to grow bigger but will slow down as it grows
+
+P4 - NPC character. Talk to NPC by clicking Enter when close to them.
